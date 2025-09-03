@@ -1,7 +1,7 @@
 {
-  "name": "finacash-backend",
+  "name": "bovinext-backend",
   "version": "1.0.0",
-  "description": "Backend API for Finacash cryptocurrency platform with Supabase",
+  "description": "Backend API para BOVINEXT - Plataforma de Gestão Pecuária com IA e Supabase",
   "main": "dist/app.js",
   "scripts": {
     "dev": "nodemon src/app.ts",

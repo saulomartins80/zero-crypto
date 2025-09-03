@@ -2,7 +2,11 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import provisionRoutes from './routes/provision.routes';
-import marketRoutes from './routes/market.routes';
+import rebanhoRoutes from './routes/rebanho.routes';
+import manejoRoutes from './routes/manejo.routes';
+import producaoRoutes from './routes/producao.routes';
+import vendasRoutes from './routes/vendas.routes';
+import mercadoRoutes from './routes/mercado.routes';
 
 dotenv.config();
 
@@ -16,12 +20,16 @@ app.use(cors({
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Zero-Crypto API is running!');
+  res.send('🐂 BOVINEXT API is running!');
 });
 
 // API Routes
 app.use('/api', provisionRoutes);
-app.use('/api/markets', marketRoutes);
+app.use('/api/rebanho', rebanhoRoutes);
+app.use('/api/manejo', manejoRoutes);
+app.use('/api/producao', producaoRoutes);
+app.use('/api/vendas', vendasRoutes);
+app.use('/api/mercado', mercadoRoutes);
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);

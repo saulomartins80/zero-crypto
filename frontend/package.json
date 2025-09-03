@@ -1,7 +1,7 @@
 {
-  "name": "finacash-frontend",
+  "name": "bovinext-frontend",
   "version": "1.0.0",
-  "description": "Frontend for Finacash cryptocurrency platform",
+  "description": "Frontend para BOVINEXT - Plataforma de Gestão Pecuária com IA",
   "private": true,
   "scripts": {
     "dev": "next dev -p 4000",

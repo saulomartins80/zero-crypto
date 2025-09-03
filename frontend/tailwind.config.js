@@ -10,42 +10,42 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Finacash Brand Colors (Azul Royal #2A5C9A)
+        // BOVINEXT Brand Colors (Verde Campo #2D5016)
         primary: {
-          50: '#E6F0FF',
-          100: '#CCE1FF',
-          200: '#99C3FF',
-          300: '#66A5FF',
-          400: '#3387FF',
-          500: '#2A5C9A', // Main brand color
-          600: '#1E4A7A',
-          700: '#13385A',
-          800: '#0A263A',
-          900: '#05141D',
+          50: '#F0F9E6',
+          100: '#E1F2CC',
+          200: '#C3E599',
+          300: '#A5D866',
+          400: '#87CB33',
+          500: '#2D5016', // Verde Campo - Cor principal
+          600: '#244011',
+          700: '#1B300D',
+          800: '#122008',
+          900: '#091004',
         },
         secondary: {
-          50: '#F8FAFC',
-          100: '#F1F5F9',
-          200: '#E2E8F0',
-          300: '#CBD5E1',
-          400: '#94A3B8',
-          500: '#64748B',
-          600: '#475569',
-          700: '#334155',
-          800: '#1E293B',
-          900: '#0F172A',
+          50: '#FDF6E3',
+          100: '#FAEDC7',
+          200: '#F5DB8F',
+          300: '#F0C957',
+          400: '#EBB71F',
+          500: '#8B4513', // Marrom Terra
+          600: '#6F370F',
+          700: '#53290B',
+          800: '#371B07',
+          900: '#1B0D04',
         },
         accent: {
-          50: '#ECFDF5',
-          100: '#D1FAE5',
-          200: '#A7F3D0',
-          300: '#6EE7B7',
-          400: '#34D399',
-          500: '#10B981',
-          600: '#059669',
-          700: '#047857',
-          800: '#065F46',
-          900: '#064E3B',
+          50: '#FFFBF0',
+          100: '#FFF7E1',
+          200: '#FFEFC3',
+          300: '#FFE7A5',
+          400: '#FFDF87',
+          500: '#DAA520', // Dourado Grão
+          600: '#AE841A',
+          700: '#826313',
+          800: '#56420D',
+          900: '#2A2106',
         },
         danger: {
           50: '#FEF2F2',
@@ -83,7 +83,7 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'finacash-gradient': 'linear-gradient(135deg, #2A5C9A 0%, #1E4A7A 100%)',
+        'bovinext-gradient': 'linear-gradient(135deg, #2D5016 0%, #8B4513 100%)',
       },
     },
   },
